@@ -1,11 +1,17 @@
 #!/usr/bin/env python
-# 2016.10.05 ros publish msg LncMug
+""" ros publish msg
+2010.10.05 LncMug
+"""
 
 import rospy
 from std_msgs.msg import String
 
 
 def talker():
+    """ Publish msgs
+    Publish  msg "hello world 'time'" rate times per sec
+    """
+
     pub = rospy.Publisher('chatter', String, queue_size=10)
     rospy.init_node('talker', anonymous=True)
     rate = rospy.Rate(10)  # 10hz
