@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lunalynn/drone-pj-2016aw/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/rurin/drone-pj-2016aw/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lunalynn/drone-pj-2016aw/catkin_ws/build
+CMAKE_BINARY_DIR = /home/rurin/drone-pj-2016aw/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosg
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lunalynn/drone-pj-2016aw/catkin_ws/src /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials /home/lunalynn/drone-pj-2016aw/catkin_ws/build /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rurin/drone-pj-2016aw/catkin_ws/src /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials /home/rurin/drone-pj-2016aw/catkin_ws/build /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

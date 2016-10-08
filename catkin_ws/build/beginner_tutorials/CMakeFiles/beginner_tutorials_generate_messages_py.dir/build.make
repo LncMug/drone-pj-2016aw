@@ -43,49 +43,49 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lunalynn/drone-pj-2016aw/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/rurin/drone-pj-2016aw/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lunalynn/drone-pj-2016aw/catkin_ws/build
+CMAKE_BINARY_DIR = /home/rurin/drone-pj-2016aw/catkin_ws/build
 
 # Utility rule file for beginner_tutorials_generate_messages_py.
 
 # Include the progress variables for this target.
 include beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/progress.make
 
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
-beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
+beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 
 
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg/Num.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lunalynn/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG beginner_tutorials/Num"
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py: /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg/Num.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rurin/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG beginner_tutorials/Num"
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg/Num.msg -Ibeginner_tutorials:/home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg
 
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lunalynn/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV beginner_tutorials/AddTwoInts"
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py: /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rurin/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV beginner_tutorials/AddTwoInts"
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/srv/AddTwoInts.srv -Ibeginner_tutorials:/home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p beginner_tutorials -o /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv
 
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lunalynn/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for beginner_tutorials"
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg --initpy
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rurin/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for beginner_tutorials"
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg --initpy
 
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
-/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lunalynn/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for beginner_tutorials"
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv --initpy
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
+/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rurin/drone-pj-2016aw/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for beginner_tutorials"
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv --initpy
 
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py
-beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
-beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
-beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
-beginner_tutorials_generate_messages_py: /home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
+beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/_Num.py
+beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/_AddTwoInts.py
+beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/msg/__init__.py
+beginner_tutorials_generate_messages_py: /home/rurin/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/srv/__init__.py
 beginner_tutorials_generate_messages_py: beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build.make
 
 .PHONY : beginner_tutorials_generate_messages_py
@@ -96,10 +96,10 @@ beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build:
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/build
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/clean:
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials && $(CMAKE_COMMAND) -P CMakeFiles/beginner_tutorials_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/clean
 
 beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/depend:
-	cd /home/lunalynn/drone-pj-2016aw/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lunalynn/drone-pj-2016aw/catkin_ws/src /home/lunalynn/drone-pj-2016aw/catkin_ws/src/beginner_tutorials /home/lunalynn/drone-pj-2016aw/catkin_ws/build /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials /home/lunalynn/drone-pj-2016aw/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rurin/drone-pj-2016aw/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rurin/drone-pj-2016aw/catkin_ws/src /home/rurin/drone-pj-2016aw/catkin_ws/src/beginner_tutorials /home/rurin/drone-pj-2016aw/catkin_ws/build /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials /home/rurin/drone-pj-2016aw/catkin_ws/build/beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : beginner_tutorials/CMakeFiles/beginner_tutorials_generate_messages_py.dir/depend
 

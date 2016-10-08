@@ -1,8 +1,8 @@
-prefix=/home/lunalynn/drone-pj-2016aw/catkin_ws/devel
+prefix=/home/rurin/drone-pj-2016aw/catkin_ws/devel
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
-Version: 0.0.0
-Cflags: -I/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/include
-Libs: -L/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib 
+Version: 0.1.0
+Cflags: -I/home/rurin/drone-pj-2016aw/catkin_ws/devel/include
+Libs: -L/home/rurin/drone-pj-2016aw/catkin_ws/devel/lib 
 Requires: message_runtime roscpp rospy std_msgs

@@ -7,5 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/lunalynn/drone-pj-2016aw/catkin_ws/build"
-export PYTHONPATH="/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export PWD="/home/rurin/drone-pj-2016aw/catkin_ws/build"

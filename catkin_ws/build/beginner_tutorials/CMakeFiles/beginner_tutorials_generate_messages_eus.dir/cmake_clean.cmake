@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/beginner_tutorials_generate_messages_eus"
-  "/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Num.l"
-  "/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l"
-  "/home/lunalynn/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
+  "/home/rurin/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/msg/Num.l"
+  "/home/rurin/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/srv/AddTwoInts.l"
+  "/home/rurin/drone-pj-2016aw/catkin_ws/devel/share/roseus/ros/beginner_tutorials/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

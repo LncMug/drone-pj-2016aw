@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "beginner_tutorials")
-set(beginner_tutorials_VERSION "0.0.0")
+set(beginner_tutorials_VERSION "0.1.0")
 set(beginner_tutorials_MAINTAINER "LncMug <lunaticlight123@gmail.com>")
 set(beginner_tutorials_PACKAGE_FORMAT "1")
 set(beginner_tutorials_BUILD_DEPENDS "roscpp" "rospy" "std_msgs" "message_generation")
